@@ -1,0 +1,382 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman';
+}
+
+
+.container-fluid{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #222224;
+}
+
+
+Span{
+    color: #1e96fc;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;    
+}
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link:hover{
+    color: #ff6700;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.select_title{
+    height: 85vh;   
+    background-color: #222224;
+    
+}
+
+.title{
+    text-align: left;
+    padding: 15%; 
+}
+
+.title h3{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fdfdff;
+    font-size: 33px;
+    
+
+}
+.title .colors{
+    color: #1e96fc;
+}
+.title p{
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+}
+.title .btn {
+    padding-left: 10%;
+}
+.title .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;   
+    background-color: #ff6700;
+    padding: 5px 13px 5px 13px;
+    border-radius: 8px;
+}
+.title .btn a:hover{
+    color: black;
+    transition: 0.6s;
+    background-color: #ff6700;
+    padding: 5px 13px 5px 13px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ff6700, 0 0 20px #ff6700 , 0 0 30px #ff6700 ;
+}
+
+.Header_Image{
+    margin-top: -13%;
+    padding-left:45%;
+    margin-bottom: -28%;
+    position: absolute;
+}
+
+.About_us{
+    height: 60vh;
+}
+.About_us h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.About_us p{
+    padding-left: 30%;
+    margin-top: -20%;
+    line-height: 36px;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.About_us img{
+    width: 410px;
+    padding-left: 3px;
+}
+
+.foter_page{
+    height: 70vh;
+    background-color: #222224;
+}
+/* Two Menu bar */
+/* .contaner{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(image/construction2.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    
+}
+
+.Name_compnay{
+    
+    color: white;
+    position: absolute;
+}
+.small_title{
+    line-height: 30px;
+    font-size: 25px;
+    padding-left: 30px;
+    color: beige;
+}
+
+
+
+nav{
+    padding: 1.5% 5%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav_link{
+    flex: 3 ;
+    text-align: right;
+    
+}
+
+.nav_link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 50px 15px;
+    position: relative;
+    left: 30px;
+}
+
+.nav_link ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_link ul li a:hover{
+    color: #fb8500;
+    transition: 0.6s;
+    font-weight: 800;
+}
+.nav_link ul li::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    
+}
+
+
+.nav_link ul li:hover::after{
+    width: 45px;
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+
+.text-box h2{
+    font-size: 34px;
+    color: white;
+}
+.text-box span{
+    color: #08fb00;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+    line-height: 25px;
+}
+
+.text-box .btn{
+    padding: 5px 18px 5px 18px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #fb8500;
+    font-weight: 800;
+    text-transform: capitalize;
+    box-shadow: 0 0 20px #ff6700, 0 0 20px #ff6700 , 0 0 40px #ff6700 ;
+}
+
+.text-box .btn a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+@media(max-width:700px){
+    .text-box h2{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .text-box p{
+        font-size: 8px;
+        line-height: 15px;
+        margin-left: 55px;
+
+    }
+    .text-box .btn{
+        padding: 5px 10px 5px 10px;
+        font-size: 15px;
+    }
+    .Name_compnay{
+        padding: 10px;
+        margin-top: 28%;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+    }
+    .small_title{
+        line-height: 30px;
+        font-size: 20px;
+        padding-left: 18px;
+        color: beige;
+    }
+    /* nav{
+        padding: 0.5% 3%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    } */
+    /* .nav_link ul li{
+        
+    } */
+    /* .nav_link {
+        position: absolute;
+        width: 100px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        background-color: #fb8500;
+    } */
+}
+
+.ourServices{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+    
+}
+
+.ourServices h1{
+    font-size: 36px;
+    font-weight: 600px;
+    color: #fb8500;
+    margin-bottom: 10px;
+    
+    
+}
+
+.ourServices h1::after{
+    content: '';
+    width: 17%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+}
+
+.ourServices p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 10px;
+    padding: 10px;
+}
+
+
+.contact_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 15px;
+    margin-top: -5%;
+    
+}
+
+.contact1:hover{
+    box-shadow: 10px 20px 40px rgba(black, rgb(3, 254, 87), black, alpha);
+}
+
+.contact{
+    width: 30%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 15px ; 
+    margin-top: 10%;
+}
+
+.contact p{
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact1{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) , rgba(255,255,255,0) ,);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.18);
+}
+
+.contact2{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) , rgba(255,255,255,0) ,);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.18);
+    
+}
+
+.contact3{
+    background: linear-gradient(135deg, rgba(223, 223, 223, 0.9) , rgba(223, 223, 223, 0.9) ,);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(229, 225, 215, 0.20);
+    
+}
+
+.side_bar{
+    background-image: linear-gradient(rgba(102, 102, 102, 0.9),rgba(94, 94, 94, 0.9)),url(image/construction.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 70vh; 
+}
